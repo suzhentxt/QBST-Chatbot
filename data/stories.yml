@@ -1,0 +1,141 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: goto_DongHoi
+  - action: utter_goto_DongHoi
+  
+- story: happy path 2
+  steps:
+  - intent: goto_BaDon
+  - action: utter_goto_BaDon
+
+- story: happy path 3
+  steps:
+  - intent: goto_LeThuy
+  - action: utter_goto_LeThuy
+
+- story: happy path 4
+  steps:
+  - intent: goto_QuangNinh
+  - action: utter_goto_QuangNinh
+
+- story: happy path 5
+  steps:
+  - intent: goto_BoTrach
+  - action: utter_goto_BoTrach
+
+- story: happy path 6
+  steps:
+  - intent: goto_QuangTrach
+  - action: utter_goto_QuangTrach
+
+- story: happy path 7
+  steps:
+  - intent: goto_TuyenHoa
+  - action: utter_goto_TuyenHoa
+
+- story: happy path 8
+  steps:
+  - intent: goto_MinhHoa
+  - action: utter_goto_MinhHoa
+
+- story: hotel booking path
+  steps:
+  - intent: book_DongHoi
+  - action: utter_book_DongHoi
+  - action: utter_book_DongHoi_two
+  - action: utter_book_DongHoi_three
+  - action: utter_book_DongHoi_four
+  - action: utter_book_DongHoi_five
+
+- story: hotel booking path 2
+  steps:
+  - intent: book_BaDon
+  - action: utter_book_BaDon
+  - action: utter_book_BaDon_two
+  - action: utter_book_BaDon_three
+  - action: utter_book_BaDon_four
+  - action: utter_book_BaDon_five
+
+- story: hotel booking path 3
+  steps:
+  - intent: book_LeThuy
+  - action: utter_book_LeThuy
+  - action: utter_book_LeThuy_two
+  - action: utter_book_LeThuy_three
+  - action: utter_book_LeThuy_four
+  - action: utter_book_LeThuy_five
+
+- story: hotel booking path 4
+  steps:
+  - intent: book_QuangNinh
+  - action: utter_book_QuangNinh
+  - action: utter_book_QuangNinh_two
+  - action: utter_book_QuangNinh_three
+  - action: utter_book_QuangNinh_four
+  - action: utter_book_QuangNinh_five
+
+- story: hotel booking path 5
+  steps:
+  - intent: book_BoTrach
+  - action: utter_book_BoTrach
+  - action: utter_book_BoTrach_two
+  - action: utter_book_BoTrach_three
+  - action: utter_book_BoTrach_four
+  - action: utter_book_BoTrach_five
+
+- story: hotel booking path 6
+  steps:
+  - intent: book_QuangTrach
+  - action: utter_book_QuangTrach
+  - action: utter_book_QuangTrach_two
+  - action: utter_book_QuangTrach_three
+  - action: utter_book_QuangTrach_four
+  - action: utter_book_QuangTrach_five
+
+- story: hotel booking path 7
+  steps:
+  - intent: book_TuyenHoa
+  - action: utter_book_TuyenHoa
+  - action: utter_book_TuyenHoa_two
+  - action: utter_book_TuyenHoa_three
+  - action: utter_book_TuyenHoa_four
+  - action: utter_book_TuyenHoa_five
+
+- story: hotel booking path 8
+  steps:
+  - intent: book_MinhHoa
+  - action: utter_book_MinhHoa
+  - action: utter_book_MinhHoa_two
+  - action: utter_book_MinhHoa_three
+  - action: utter_book_MinhHoa_four
+  - action: utter_book_MinhHoa_five
+
+- story: ticket booking path
+  steps:
+  - intent: book_tickets
+  - action: utter_book_tickets
+  
+- story: thanks path
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+- story: sad path 1
+  steps:  
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

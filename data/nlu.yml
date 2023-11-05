@@ -1,0 +1,252 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    
+    
+- intent: goodbye
+  examples: |
+    - see you
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yup
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what is your name?
+    - who are you?
+
+- intent: plan_cities 
+  examples: |
+    - I want to travel
+    - Plan my trip
+    - Plan my trip to Quang Binh
+    - Can you guide me for my trip?
+    - I need assistance for travel
+
+- intent: goto_DongHoi
+  examples: |
+    - Dong Hoi
+    - DongHoi
+
+- intent: goto_BaDon
+  examples: |
+    - Ba Don
+    - BaDon
+  
+- intent: goto_LeThuy
+  examples: |
+    - Le Thuy
+    - LeThuy
+
+- intent: goto_QuangNinh
+  examples: |
+    - Quang Ninh
+    - QuangNinh
+
+- intent: goto_BoTrach
+  examples: |
+    - Bo Trach
+    - BoTrach
+
+- intent: goto_QuangTrach
+  examples: |
+    - Quang Trach
+    - QuangTrach
+
+- intent: goto_TuyenHoa
+  examples: |
+    - Tuyen Hoa
+    - TuyenHoa
+
+- intent: goto_MinhHoa       
+  examples: |
+    - Minh Hoa
+    - MinhHoa
+
+- intent: book_hotels
+  examples: |
+    - I want to book hotel
+    - I want to book resort
+    - hotels
+    - resorts
+    - I would like to make hotel booking
+    - Book hotel in Quang Binh for me
+    - Can you book hotel for my trip?
+    - book hotel room
+    - book room
+    - I want to book room
+
+- intent: book_DongHoi
+  examples: |
+    - Hotels in Dong Hoi
+    - Show hotels in Dong Hoi
+    - Book hotels in Dong Hoi
+    - Find hotels in Dong Hoi
+
+- intent: book_BaDon
+  examples: |
+    - Hotels in Ba Don
+    - Show hotels in Ba Don
+    - Book hotels in Ba Don
+    - Find hotels in Ba Don
+
+- intent: book_LeThuy
+  examples: |
+    - Hotels in Le Thuy
+    - Show hotels in Le Thuy
+    - Book hotels in Le Thuy
+    - Find hotels in Le Thuy
+
+- intent: book_Quang Ninh
+  examples: |
+    - Hotels in Quang Ninh
+    - Show hotels in Quang Ninh
+    - Book hotels in Quang Ninh
+    - Find hotels in Quang Ninh
+
+- intent: book_BoTrach
+  examples: |
+    - Hotels in BoTrach
+    - Show hotels in Bo Trach
+    - Book hotels in Bo Trach
+    - Find hotels in Bo Trach
+
+
+- intent: book_QuangTrach
+  examples: |
+    - Hotels in QuangTrach
+    - Show hotels in Quang Trach
+    - Book hotels in Quang Trach
+    - Find hotels in Quang Trach
+
+- intent: book_TuyenHoa
+  examples: |
+    - Hotels in TuyenHoa
+    - Show hotels in Tuyen Hoa
+    - Book hotels in Tuyen Hoa
+    - Find hotels in Tuyen Hoa
+
+- intent: book_MinhHoa
+  examples: |
+    - Hotels in MinhHoa
+    - Show hotels in Minh Hoa
+    - Book hotels in Minh Hoa
+    - Find hotels in Minh Hoa
+
+- intent: book_tickets
+  examples: |
+    - tickets
+    - I want to book tickets
+    - Confirm my tickets
+    - Get me tickets
+    
+- intent: thanks
+  examples: |
+    - Thanks for your help
+    - Amazing!
+    - Thankyou
+    - That's great
+    - You're great
+    
+- intent: out_of_scope
+  examples: |
+    - capital
+    - joke
+    - president
+    - restaurents
+    - food
+    - shopping malls
+    - bank
+    - ATM
+    - hospitals
+    - police station
+    
+
+    
+    
+   
+   
+    
+
+    

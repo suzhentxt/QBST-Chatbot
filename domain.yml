@@ -1,0 +1,406 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - plan_cities
+  - goto_DongHoi
+  - goto_BaDon
+  - goto_LeThuy
+  - goto_QuangNinh
+  - goto_BoTrach
+  - goto_QuangTrach
+  - goto_TuyenHoa
+  - goto_MinhHoa
+  - book_hotels
+  - book_DongHoi
+  - book_BaDon
+  - book_LeThuy
+  - book_QuangNinh
+  - book_BoTrach
+  - book_QuangTrach
+  - book_TuyenHoa
+  - book_MinhHoa
+  - book_tickets
+  - thanks
+  - out_of_scope
+  
+responses:
+  utter_greet:
+  - text: "Hello! I am QBST. Your travel assistant for QuangBinh!\n How can I help you today?"
+
+  utter_greet_two:
+  - text: "🧳Plan my trip\n🏨Book hotels\n🎫Book tickets"
+
+  utter_plan_cities:
+  - text: "There are quite attractive tourist places in QuangBinh.\nWhich city you would like to visit? \n◼️DongHoi \n◼️BaDon \n◼️LeThuy \n◼️QuangNinh \n◼️BoTrach \n◼️QuangTrach \n◼️TuyenHoa \n◼️MinhHoa"
+
+  utter_goto_DongHoi:
+  - text: "Dong Hoi is a city in the center of Quang Binh.\n
+  It is located right on National Highway 1A and has both railway and airway.\n
+  Visitors to Quang Binh or exploring Phong Nha will definitely stop and rest overnight in Dong Hoi city.\n
+  Places of Interest : \n
+  [Nhat Le Beach](https://www.originvietnam.com/destination/vietnam/quang-binh/nhat-le-beach.html)\n
+  [Quang Phu Sand Dunes](https://en.phuot3mien.com/quang-phu-sand-hill-quang-binh.html)\n
+  [Ancient Dong Hoi Citadel](https://www.vietnamtourism.org.vn/travel-guide/destination-in-vietnam//dong-hoi-citadel-an-honorable-symbol-of-the-brave-vietnam.html)\n
+  [Mother Suot Monument](https://vietnam-destinations.com/en/destination/tuong-dai-me-suot/)\n
+  [Quang Binh Gate](https://yeudulich.com/diem-tham-quan/VNMVDH14/quang-binh-quan)\n
+  [Quang Binh Museum](https://phongnhadiscovery.com/en/quang-binh-general-museum)\n
+  [Tam Toa Church](https://www.originvietnam.com/destination/vietnam/quang-binh/tam-toa-church.html)\n"
+    image: "https://baoquangbinh.vn/dataimages/201912/original/images657341_79d4_nh2.jpg"
+
+  utter_goto_BaDon:
+  - text: "Ba Don is a town in Quang Binh.\n
+  The town is located on National Route 1, about 40 km north of the provincial capital Dong Hoi.\n
+  Places of Interest: \n
+  [Ba Don market]()\n
+  [Tho Don village](https://BaDon.gov.in/tourist-place/mangi-tungi-temple/)"
+    image: "https://badontv.vn/uploads/chuyen-muc/2020_07/54.jpg"
+
+  utter_goto_LeThuy:
+  - text: "Le Thuy central is 40 km south of the provincial capital Dong Hoi city.\n
+  It  is home to an impressive selection of attractions and experiences, making it well worth a visit.\n
+  Places of Interest:\n
+  [Cha Loi cave](https://vietnamnet.vn/en/exploring-cha-loi-cave-675578.html)\n
+  [Vo Nguyen Giap Cave](https://myquangbinh.vn/vi/hangdaituong)\n
+  [Duong Cam Waterfall](https://vietnamtimes.org.vn/duong-cam-waterfall-a-wonderful-natural-scenery-of-vietnam-56643.html)\n
+  [Bang Mineral Hot Spring](https://www.vietnam.vn/en/suoi-nuoc-nong-co-do-soi-cao-ky-luc-tai-viet-nam/)"
+    image: "https://cdn.tgdd.vn/Files/2023/07/18/1538771/du-lich-le-thuy-quang-binh-5-dia-diem-du-lich-hap-dan-nhat-202307182157490185.jpg"
+
+  utter_goto_QuangNinh:
+  - text: "Quang Ninh is located in the southern part of Quang Binh Province.\n
+  It borders Le Thuy district to the south and Dong Hoi city to the north.\n
+  Places of Interest:\n
+  [Son Nu Cave](https://www.vietnam.vn/en/phat-hien-hang-son-nu-tuyet-dep-giua-rung-truong-son-o-quang-binh/)\n
+  [Than Dinh mountain](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/len-chua-non-nui-than-dinh-uong-nuoc-thanh.html)\n
+  [Dao Duy Tu Rampart](https://mia.vn/cam-nang-du-lich/luy-thay-quang-binh-di-tich-gan-lien-voi-vi-quan-su-dao-duy-tu-5765)"
+    image: "https://cdn.tgdd.vn/Files/2023/07/18/1538771/du-lich-le-thuy-quang-binh-5-dia-diem-du-lich-hap-dan-nhat-202307182157490185.jpg"
+
+  utter_goto_BoTrach:
+  - text: "Bo Trach is a rural district in Quang Binh Province.\n
+  Bo Trach borders the capital city of Dong Hoi to the south-east.\n
+  Places of Interest:\n
+  [Phong Nha - Ke Bang National Park](https://vietnamtravel.com/phong-nha-ke-bang-national-park/)\n
+  [Son Doong cave](https://sondoongcave.info/vi/)\n
+  [En cave](https://oxalisadventure.com/vi/cave/hang-en/)\n
+  [Thien Duong cave](https://vietnamdiscovery.com/quang-binh/attractions/paradise-cave/)\n
+  [Chay river – Dark cave](https://quangbinhgo.com/chay-river-dark-cave-great-destination-in-quang-binh/)\n
+  [Hang Va cave](https://vnexpress.net/ky-quan-trong-hang-va-o-quang-binh-4587117.html)\n 
+  [Da Nhay Beach](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/diem-tham-quan-du-lich-quang-binh/da-nhay.html)\n
+  [Mooc Spring](https://phongnhacave.org/nuoc-mooc-spring/)\n
+  [Ozo Park](https://phongnhacave.org/ozo-park-in-phong-nha-ke-bang/)\n"
+    image: "https://www.quangbinhtravel.vn/wp-content/uploads/2019/05/image-1.png"
+
+  utter_goto_QuangTrach:
+  - text: "Quang Trach is a district located in the northern part of Quang Binh Province.\n
+  Places of Interest:\n
+  [Vung Chua - Yen Island](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/tim-hieu-vung-chua-dao-yen-noi-an-tang-dai-tuong-vo-nguyen-giap.html)\n
+  [Deo Ngang](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/diem-tham-quan-du-lich-quang-binh/deo-ngang-con-deo-rat-tho-va-lang-man-nhat-viet-nam.html)\n"
+    image: "https://baoquangbinh.vn/dataimages/201802/original/images620261_anh37.jpg"
+
+  utter_goto_TuyenHoa:
+  - text: "Tuyen Hoa district is located in the northwest of Quang Binh Province.\n
+  This is the ancient homeland of the Vietnamese people.\n
+  Places of Interest:\n
+  [Hang Tien cave](https://thanhnien.vn/mot-ngay-xuyen-rung-kham-pha-hang-tien-1851444104.htm)\n
+  [Len Ha cave](https://mia.vn/cam-nang-du-lich/hang-len-ha-quang-binh-noi-ghi-dau-chien-cong-oanh-liet-6045)\n"
+    image: "https://img.daibieunhandan.vn/Files/Images/2020/07/27/1651730929393.jpg"
+
+  utter_goto_MinhHoa:
+  - text: "Minh Hoa is a mountainous border district located in the western part of Quang Binh province.\n
+  Places of Interest:\n
+  [Tu Lan Cave](https://vnexpress.net/ve-dep-ben-trong-cac-hang-dong-tu-lan-4429857.html)\n
+  [Ruc Mon cave](https://danviet.vn/kham-pha-hang-ruc-mon-bai-cuoi-ngoc-trong-hang-va-bi-an-ve-loai-ran-o-do-cao-400m-20230924152004794.htm)\n
+  [Mo Waterfal](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/thac-mo-minh-hoa-noi-tranh-nong-ly-tuong.html)\n
+  [Cha Lo Heaven Gate](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/di-tich-lich-su-cong-troi-cha-lo.html)"
+    image: "https://www.vietnambooking.com/wp-content/uploads/2017/10/du-lich-quang-binh-18-10-2017-hung-tung-3.jpg"
+
+  utter_book_hotels:
+  - text: "In which city do you want to book hotels?"
+
+  utter_book_DongHoi:
+  - text: "SunSpa, Hotel Resort\n
+  🏨[Website](https://sunsparesortvietnam.com/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Sun+Spa+Resort/@17.4802612,106.6338305,15z/data=!4m2!3m1!1s0x0:0x5e4ce6f8ce4a5560?sa=X&ved=2ahUKEwjMvv6Q-ayCAxXOsFYBHfKCCygQ_BJ6BAhLEAA)"
+    image: "https://sunsparesortvietnam.com/uploads/Home/home_banner.jpg"
+
+  utter_book_DongHoi_two:
+  - text: "Gold Coast Hotel\n
+  🏨[Website](https://goldcoastquangbinh.com/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Gold+Coast+Hotel+Resort+%26+Spa/@17.4666076,106.6405238,15z/data=!4m2!3m1!1s0x0:0x830ca6421d750ae5?sa=X&ved=2ahUKEwiim_bK-ayCAxVctVYBHW3cBp4Q_BJ6BAhMEAA)"
+    image: "https://quangbinhbooking.com/wp-content/uploads/2022/03/2-7-870x555.jpg"
+
+  utter_book_DongHoi_three:
+  - text: "Meliá Vinpearl Hotel Quang Binh\n
+  🏨[Website](https://www.melia.com/vi/hotels/vietnam/quang-binh/melia-vinpearl-quang-binh)\t
+  🗺️[Directions](https://www.google.com/maps/place/Meli%C3%A1+Vinpearl+Qu%E1%BA%A3ng+B%C3%ACnh/@17.4656176,106.6264752,15z/data=!4m2!3m1!1s0x0:0x5f846de9e96cac64?sa=X&ved=2ahUKEwibmZrT-qyCAxU6klYBHdjYEqMQ_BJ6BAhPEAA)"
+    image: "https://datphongvinpearl.vn/wp-content/uploads/2020/12/dji-0258-hdr-1-0921152.jpg"
+
+  utter_book_DongHoi_four:
+  - text: "Muong Thanh Luxury Nhat Le Hotel\n
+  🏨[Website](https://booking.muongthanh.com/khach-san-muong-thanh-luxury-nhat-le)\t
+  🗺️[Directions](https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+M%C6%B0%E1%BB%9Dng+Thanh+Luxury+Nh%E1%BA%ADt+L%E1%BB%87/@17.486803,106.626956,15z/data=!4m2!3m1!1s0x0:0xc9bd4f383fbe7fb2?sa=X&ved=2ahUKEwip3-iv_ayCAxVDzjQHHT9yCwwQ_BJ6BAhPEAA&hl=vi)"
+    image: "https://booking.muongthanh.com/images/hotels/hotels/original/muong-thanh-quang-binh_1694067557.jpg"
+
+  utter_book_DongHoi_five:
+  - text: "Vinh Hoang Hotel\n
+  🏨[Website](https://www.vihotelquangbinh.com/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+V%C4%A9nh+Ho%C3%A0ng+-+VIHOTEL/@17.4874359,106.6272589,15z/data=!4m2!3m1!1s0x0:0xf4b1055e6a77bdfd?sa=X&ved=2ahUKEwiLr6P5_ayCAxUvhlYBHepDCQQQ_BJ6BAhREAA&hl=vi)"
+    image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/133347972.jpg?k=87b4d80ea74b04b95661beb6ca8117b188577f1601d511b9115d71213b63047b&o=&hp=1"
+
+  utter_book_BaDon:
+  - text: "Chau Anh Luxury Hotel\n
+  🏨[Website](https://www.facebook.com/khachsantaibadon/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Chau+Anh+Luxury+Hotel/@17.7551961,106.4338645,15z/data=!4m2!3m1!1s0x0:0x73d7f4b7e023d1b?sa=X&ved=2ahUKEwjXldyBgK2CAxV9lFYBHeN4AXIQ_BJ6BAg4EAA&cshid=1699192183004907)"
+    image: "https://pix7.agoda.net/hotelImages/849/8492278/8492278_19072616480078427289.jpg?ca=9&ce=1&s=414x232&ar=16x9"
+
+  utter_book_BaDon_two:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_BaDon_three:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_BaDon_four:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_BaDon_five:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_LeThuy:
+  - text: "\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_LeThuy_two:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_LeThuy_three:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_LeThuy_four:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_LeThuy_five:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangNinh:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangNinh_two:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangNinh_three:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangNinh_four:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangNinh_five:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_BoTrach:
+  - text: "Phong Nha Lake House Resort\n
+  🏨[Website](https://phongnhalakehouse.com/vi/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Phong+Nha+Lake+House+Resort/@17.6176984,106.3760552,15z/data=!4m2!3m1!1s0x0:0x606d58e3259bdcc0?sa=X&ved=2ahUKEwjE_-GCoa2CAxX3h1YBHfPDArIQ_BJ6BAhMEAA)"
+    image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/221309996.jpg?k=f02a0d2f0ec20ec1c943d8b9fc29c3d04ef4500ceaab089ef64f84bbe0c57440&o=&hp=1"
+
+  utter_book_BoTrach_two:
+  - text: "Chay Lap Farmstay\n
+  🏨[Website](https://chaylapfarmstay.com/vi/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Ch%C3%A0y+L%E1%BA%ADp+Farmstay/@17.6017277,106.2546176,15z/data=!4m2!3m1!1s0x0:0x33bdd8762560eb94?sa=X&ved=2ahUKEwiB0-msoa2CAxU8gFYBHbWVDR8Q_BJ6BAhJEAA)"
+    image: "https://vcdn1-dulich.vnecdn.net/2021/04/22/CHAYLAP1-2752-1615888910-4211-1619077974.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=r5va82UJVD5dP5OBxyrytg"
+
+  utter_book_BoTrach_three:
+  - text: "Phong Nha Coco Riverside Homestay\n
+  🏨[Website](https://www.facebook.com/p/Phong-Nha-Coco-Riverside-100039384645532/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Phong+Nha+Coco+Riverside+Homestay/@17.6099085,106.3025584,15z/data=!4m2!3m1!1s0x0:0x6b9d6ef8c75d1802?sa=X&ved=2ahUKEwjYv_Pkoa2CAxV3r1YBHeZFDVEQ_BJ6BAg-EAA)"
+    image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/183008562.jpg?k=35828676323d8e36ece9c51541bf508e624d12b3368ce5d872ed75276f014f5e&o=&hp=1"
+
+  utter_book_BoTrach_four:
+  - text: "Phong Nha Escape Bungalow\n
+  🏨[Website](https://www.facebook.com/phongnhaEscapBungalow/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Phong+Nha+Escape+Bungalow/@17.6194093,106.3349923,15z/data=!4m2!3m1!1s0x0:0xaa40ad54e3b9c8f?sa=X&ved=2ahUKEwjRgtqLoq2CAxVZr1YBHXbJC04Q_BJ6BAhEEAA)"
+    image: "https://2trip.vn/wp-content/uploads/2023/07/homestay-phong-nha-2.jpg"
+
+  utter_book_BoTrach_five:
+  - text: "Phong Nha Farm Stay Hotel\n
+  🏨[Website](https://phong-nha-cave.com/)\t
+  🗺️[Directions](https://www.google.com/maps/place/Phong+Nha+Farmstay/@17.6244259,106.3852997,15z/data=!4m2!3m1!1s0x0:0x3828ddbb7a59bcd?sa=X&ved=2ahUKEwj_nPvZoq2CAxX_lFYBHcANCdMQ_BJ6BAhNEAA)"
+    image: "https://images.vietnamtourism.gov.vn/vn/images/2020/phongnha1.jpg"
+
+  utter_book_QuangTrach:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangTrach_two:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangTrach_three:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangTrach_four:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_QuangTrach_five:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_TuyenHoa:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_TuyenHoa_two:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_TuyenHoa_three:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_TuyenHoa_four:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_TuyenHoa_five:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_MinhHoa:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_MinhHoa_two:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_MinhHoa_three:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_MinhHoa_four:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_MinhHoa_five:
+  - text: "updating\n
+  🏨[Website]()\t
+  🗺️[Directions]()"
+    image: ""
+
+  utter_book_tickets:
+  - text: "Book your tickets here:\n
+  🚌[Bus](https://myquangbinh.vn/vi/detailutilities/?id=4304&child=4304)\n
+  🚆[Trains](https://dsvn.vn/#/)\n
+  ✈️[Flights](https://www.vietnamairlines.com/vn/vi/home)"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.pinimg.com/originals/65/04/c0/6504c099cfd144222603d7adfade62df.png"
+  
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+  
+  utter_thanks:
+  - text: "I am glad to help you.\nHave a great day!"
+
+  utter_goodbye:
+  - text: "Bye👋"
+
+  utter_goodbye_two:
+  - text: "Before you leave,We would like to hear your thoughts 👉[Click Here!](https://forms.gle/rqxaE5CGcoZfw6PG9)"
+  
+  utter_out_of_scope:
+  - text: "Sorry, I can't handle that request.I can only assist you with travel and tourism."
+  
+  utter_iamabot:
+  - text: "I am QBST. Your virtual assistant for travel and tourism."
+
+
+       
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+
+      
+
+   
