@@ -3,6 +3,10 @@ version: "3.0"
 nlu:
 - intent: greet
   examples: |
+    - chào
+    - xin chào
+    - tôi cần giúp đỡ 
+    - yo
     - hey
     - hello
     - hi
@@ -20,6 +24,8 @@ nlu:
     
 - intent: goodbye
   examples: |
+    - tạm biệt
+    - bái bai
     - see you
     - cu
     - good by
@@ -35,6 +41,9 @@ nlu:
 
 - intent: affirm
   examples: |
+    - ok
+    - đúng rồi
+    - đương nhiên rồi
     - yes
     - y
     - indeed
@@ -45,6 +54,10 @@ nlu:
 
 - intent: deny
   examples: |
+    - không
+    - tôi không nghĩ vậy
+    - tôi không thích vậy
+    - không đời nào
     - no
     - n
     - never
@@ -55,6 +68,9 @@ nlu:
 
 - intent: mood_great
   examples: |
+    - tuyệt
+    - tốt
+    - hoàn hảo
     - perfect
     - great
     - amazing
@@ -72,6 +88,13 @@ nlu:
 
 - intent: mood_unhappy
   examples: |
+    - tệ
+    - buồn
+    - rất buồn
+    - không ổn
+    - thất vọng
+    - không vui
+    - không tốt
     - my day was horrible
     - I am sad
     - I don't feel very well
@@ -89,6 +112,12 @@ nlu:
 
 - intent: bot_challenge
   examples: |
+    - bạn có phải là con người không?
+    - bạn là bot à?
+    - tôi đang nói chuyện với bot?
+    - tôi đang nói chuyện với con người?
+    - bạn là ai?
+    - bạn tên gì?
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
@@ -98,6 +127,10 @@ nlu:
 
 - intent: plan_cities 
   examples: |
+    - tôi muốn du lịch
+    - lên kế hoạch
+    - chuyến đi
+    - hướng dẫn
     - I want to travel
     - Plan my trip
     - Plan my trip to Quang Binh
@@ -108,44 +141,58 @@ nlu:
   examples: |
     - Dong Hoi
     - DongHoi
+    - Đồng Hới
 
 - intent: goto_BaDon
   examples: |
     - Ba Don
     - BaDon
+    - Ba Đồn
   
 - intent: goto_LeThuy
   examples: |
     - Le Thuy
     - LeThuy
+    - Lệ Thủy
 
 - intent: goto_QuangNinh
   examples: |
     - Quang Ninh
     - QuangNinh
+    - Lệ Thủy
 
 - intent: goto_BoTrach
   examples: |
     - Bo Trach
     - BoTrach
+    - Bố Trạch
 
 - intent: goto_QuangTrach
   examples: |
     - Quang Trach
     - QuangTrach
+    - Quảng Trạch
 
 - intent: goto_TuyenHoa
   examples: |
     - Tuyen Hoa
     - TuyenHoa
+    - Tuyên Hóa
 
 - intent: goto_MinhHoa       
   examples: |
     - Minh Hoa
     - MinhHoa
+    - Minh Hóa
 
 - intent: book_hotels
   examples: |
+    - tôi muốn đặt khách sạn
+    - đặt khách sạn
+    - khách sạn
+    - nhà nghỉ
+    - đặt phòng
+    - tôi muốn đặt phòng
     - I want to book hotel
     - I want to book resort
     - hotels
@@ -159,6 +206,7 @@ nlu:
 
 - intent: book_DongHoi
   examples: |
+    - khách sạn ở Đồng Hới
     - Hotels in Dong Hoi
     - Show hotels in Dong Hoi
     - Book hotels in Dong Hoi
@@ -166,6 +214,7 @@ nlu:
 
 - intent: book_BaDon
   examples: |
+    - khách sạn ở Ba Đồn
     - Hotels in Ba Don
     - Show hotels in Ba Don
     - Book hotels in Ba Don
@@ -173,6 +222,7 @@ nlu:
 
 - intent: book_LeThuy
   examples: |
+    - khách sạn ở Lệ Thủy
     - Hotels in Le Thuy
     - Show hotels in Le Thuy
     - Book hotels in Le Thuy
@@ -180,6 +230,7 @@ nlu:
 
 - intent: book_Quang Ninh
   examples: |
+    - khách sạn ở Quảng Ninh
     - Hotels in Quang Ninh
     - Show hotels in Quang Ninh
     - Book hotels in Quang Ninh
@@ -187,6 +238,7 @@ nlu:
 
 - intent: book_BoTrach
   examples: |
+    - khách sạn ở Bố Trạch
     - Hotels in BoTrach
     - Show hotels in Bo Trach
     - Book hotels in Bo Trach
@@ -195,6 +247,7 @@ nlu:
 
 - intent: book_QuangTrach
   examples: |
+    - khách sạn ở Quảng Trạch
     - Hotels in QuangTrach
     - Show hotels in Quang Trach
     - Book hotels in Quang Trach
@@ -202,6 +255,7 @@ nlu:
 
 - intent: book_TuyenHoa
   examples: |
+    - khách sạn ở Tuyên Hóa
     - Hotels in TuyenHoa
     - Show hotels in Tuyen Hoa
     - Book hotels in Tuyen Hoa
@@ -209,6 +263,7 @@ nlu:
 
 - intent: book_MinhHoa
   examples: |
+    - khách sạn ở Minh Hóa
     - Hotels in MinhHoa
     - Show hotels in Minh Hoa
     - Book hotels in Minh Hoa
@@ -216,6 +271,9 @@ nlu:
 
 - intent: book_tickets
   examples: |
+    - vé
+    - đặt vé
+    - tôi muốn đặt vé
     - tickets
     - I want to book tickets
     - Confirm my tickets
@@ -223,6 +281,8 @@ nlu:
     
 - intent: thanks
   examples: |
+    - cảm ơn
+    - bạn thật tuyệt
     - Thanks for your help
     - Amazing!
     - Thankyou
@@ -231,6 +291,9 @@ nlu:
     
 - intent: out_of_scope
   examples: |
+    - nhà hàng
+    - đồ ăn
+    - bệnh viện
     - capital
     - joke
     - president

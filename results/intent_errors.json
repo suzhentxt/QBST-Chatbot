@@ -1,0 +1,306 @@
+[
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8660669922828674
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9966161847114563
+    }
+  },
+  {
+    "text": "goodevening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7766965627670288
+    }
+  },
+  {
+    "text": "cu",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.989701509475708
+    }
+  },
+  {
+    "text": "that sounds good",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.6938581466674805
+    }
+  },
+  {
+    "text": "not really",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9999520778656006
+    }
+  },
+  {
+    "text": "wonderful",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.394639253616333
+    }
+  },
+  {
+    "text": "my day was horrible",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5040895342826843
+    }
+  },
+  {
+    "text": "Can you guide me for my trip?",
+    "intent": "plan_cities",
+    "intent_prediction": {
+      "name": "book_hotels",
+      "confidence": 0.997500479221344
+    }
+  },
+  {
+    "text": "I would like to make hotel booking",
+    "intent": "book_hotels",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7042423486709595
+    }
+  },
+  {
+    "text": "Book hotel in Maharashtra for me",
+    "intent": "book_hotels",
+    "intent_prediction": {
+      "name": "plan_cities",
+      "confidence": 0.890716552734375
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.32504287362098694
+    }
+  },
+  {
+    "text": "correct",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9985243678092957
+    }
+  },
+  {
+    "text": "amazing",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9629769921302795
+    }
+  },
+  {
+    "text": "feeling like a king",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "book_hotels",
+      "confidence": 0.4372066855430603
+    }
+  },
+  {
+    "text": "I am amazing",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.7388268113136292
+    }
+  },
+  {
+    "text": "so good",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5278520584106445
+    }
+  },
+  {
+    "text": "I don't feel very well",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9469670057296753
+    }
+  },
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8216228485107422
+    }
+  },
+  {
+    "text": "not very good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9804568290710449
+    }
+  },
+  {
+    "text": "I want to travel",
+    "intent": "plan_cities",
+    "intent_prediction": {
+      "name": "book_hotels",
+      "confidence": 0.9909083247184753
+    }
+  },
+  {
+    "text": "I need assistance for travel",
+    "intent": "plan_cities",
+    "intent_prediction": {
+      "name": "book_hotels",
+      "confidence": 0.9411066770553589
+    }
+  },
+  {
+    "text": "hotels",
+    "intent": "book_hotels",
+    "intent_prediction": {
+      "name": "book_ratnagiri",
+      "confidence": 0.17232513427734375
+    }
+  },
+  {
+    "text": "moin",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.618010938167572
+    }
+  },
+  {
+    "text": "good afternoon",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.12515570223331451
+    }
+  },
+  {
+    "text": "good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9679511189460754
+    }
+  },
+  {
+    "text": "have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.998088538646698
+    }
+  },
+  {
+    "text": "y",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.642415463924408
+    }
+  },
+  {
+    "text": "indeed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "book_pune",
+      "confidence": 0.4006073772907257
+    }
+  },
+  {
+    "text": "of course",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9566357731819153
+    }
+  },
+  {
+    "text": "never",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9508437514305115
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.6118035912513733
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "book_hotels",
+      "confidence": 0.3414280116558075
+    }
+  },
+  {
+    "text": "I am disappointed",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "book_raigad",
+      "confidence": 0.22083674371242523
+    }
+  },
+  {
+    "text": "unhappy",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "book_pune",
+      "confidence": 0.4102548062801361
+    }
+  },
+  {
+    "text": "Plan my trip to Maharashtra",
+    "intent": "plan_cities",
+    "intent_prediction": {
+      "name": "book_hotels",
+      "confidence": 0.5222453474998474
+    }
+  },
+  {
+    "text": "resorts",
+    "intent": "book_hotels",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9070324301719666
+    }
+  },
+  {
+    "text": "Can you book hotel for my trip?",
+    "intent": "book_hotels",
+    "intent_prediction": {
+      "name": "plan_cities",
+      "confidence": 0.9006614685058594
+    }
+  }
+]

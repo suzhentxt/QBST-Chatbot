@@ -32,96 +32,97 @@ intents:
   
 responses:
   utter_greet:
-  - text: "Xin chào! Tôi là QBST. Trợ lý du lịch của bạn!\n Hôm nay tôi có thể giúp gì cho bạn?"
+  - text: "Xin chào! Tôi là QBST. Trợ lý ảo du lịch của bạn!\n Tôi có thể giúp gì cho bạn?"
 
   utter_greet_two:
-  - text: "🧳Plan my trip\n🏨Book hotels\n🎫Book tickets"
+  - text: "🧳Lên kế hoạch chuyến đi\n🏨Đặt khách sạn\n🎫Đặt vé"
 
   utter_plan_cities:
-  - text: "There are quite attractive tourist places in QuangBinh.\nWhich city you would like to visit? \n◼️DongHoi \n◼️BaDon \n◼️LeThuy \n◼️QuangNinh \n◼️BoTrach \n◼️QuangTrach \n◼️TuyenHoa \n◼️MinhHoa"
+  - text: "Đây là một số địa điểm ở Quảng Bình.\nBạn muốn đến đâu? \n◼️Đồng Hới \n◼️Ba Đồn \n◼️Lệ Thủy \n◼️Quảng Ninh \n◼️Bố Trạch \n◼️Quảng Trạch \n◼️Tuyên Hóa \n◼️Minh Hóa"
 
   utter_goto_DongHoi:
-  - text: "Dong Hoi is a city in the center of Quang Binh.\n
-  It is located right on National Highway 1A and has both railway and airway.\n
-  Visitors to Quang Binh or exploring Phong Nha will definitely stop and rest overnight in Dong Hoi city.\n
-  Places of Interest : \n
-  [Nhat Le Beach](https://www.originvietnam.com/destination/vietnam/quang-binh/nhat-le-beach.html)\n
-  [Quang Phu Sand Dunes](https://en.phuot3mien.com/quang-phu-sand-hill-quang-binh.html)\n
-  [Ancient Dong Hoi Citadel](https://www.vietnamtourism.org.vn/travel-guide/destination-in-vietnam//dong-hoi-citadel-an-honorable-symbol-of-the-brave-vietnam.html)\n
-  [Mother Suot Monument](https://vietnam-destinations.com/en/destination/tuong-dai-me-suot/)\n
-  [Quang Binh Gate](https://yeudulich.com/diem-tham-quan/VNMVDH14/quang-binh-quan)\n
-  [Quang Binh Museum](https://phongnhadiscovery.com/en/quang-binh-general-museum)\n
-  [Tam Toa Church](https://www.originvietnam.com/destination/vietnam/quang-binh/tam-toa-church.html)\n"
+  - text: "Đồng Hới là thành phố tỉnh lỵ của tỉnh Quảng Bình.\n
+  Thành phố Đồng Hới nằm giữa Quốc lộ 1 và đường Hồ Chí Minh.\n
+  Du khách đến tham quan di sản thế giới: Vườn Quốc gia Phong Nha - Kẻ Bàng thường chọn Đồng Hới là nơi dừng chân và nghỉ ngơi.\n
+  Các địa điểm đáng quan tâm: \n
+  [Biển Nhật Lệ](https://www.originvietnam.com/destination/vietnam/quang-binh/nhat-le-beach.html)\n
+  [Đồi cát Quang Phú](https://en.phuot3mien.com/quang-phu-sand-hill-quang-binh.html)\n
+  [Thành cổ Đồng Hới](https://www.vietnamtourism.org.vn/travel-guide/destination-in-vietnam//dong-hoi-citadel-an-honorable-symbol-of-the-brave-vietnam.html)\n
+  [Tượng đài Mẹ Suốt](https://vietnam-destinations.com/en/destination/tuong-dai-me-suot/)\n
+  [Quảng Bình Quan](https://yeudulich.com/diem-tham-quan/VNMVDH14/quang-binh-quan)\n
+  [Bảo tàng Quảng Bình](https://phongnhadiscovery.com/en/quang-binh-general-museum)\n
+  [Nhà thờ Tam Tòa](https://www.originvietnam.com/destination/vietnam/quang-binh/tam-toa-church.html)\n"
     image: "https://baoquangbinh.vn/dataimages/201912/original/images657341_79d4_nh2.jpg"
 
   utter_goto_BaDon:
-  - text: "Ba Don is a town in Quang Binh.\n
-  The town is located on National Route 1, about 40 km north of the provincial capital Dong Hoi.\n
-  Places of Interest: \n
-  [Ba Don market]()\n
-  [Tho Don village](https://BaDon.gov.in/tourist-place/mangi-tungi-temple/)"
+  - text: "Ba Đồn là một thị xã thuộc tỉnh Quảng Bình.\n
+  Thị xã Ba Đồn nằm bên sông Gianh, có Quốc lộ 1, đường sắt Thống Nhất đi qua, cách thành phố Đồng Hới 40 km về phía bắc.\n
+  Các địa điểm đáng quan tâm: \n
+  [Chợ Ba Đồn]()\n
+  [Làng đan lát Thọ Đơn](https://BaDon.gov.in/tourist-place/mangi-tungi-temple/)"
     image: "https://badontv.vn/uploads/chuyen-muc/2020_07/54.jpg"
 
   utter_goto_LeThuy:
-  - text: "Le Thuy central is 40 km south of the provincial capital Dong Hoi city.\n
-  It  is home to an impressive selection of attractions and experiences, making it well worth a visit.\n
-  Places of Interest:\n
-  [Cha Loi cave](https://vietnamnet.vn/en/exploring-cha-loi-cave-675578.html)\n
-  [Vo Nguyen Giap Cave](https://myquangbinh.vn/vi/hangdaituong)\n
-  [Duong Cam Waterfall](https://vietnamtimes.org.vn/duong-cam-waterfall-a-wonderful-natural-scenery-of-vietnam-56643.html)\n
-  [Bang Mineral Hot Spring](https://www.vietnam.vn/en/suoi-nuoc-nong-co-do-soi-cao-ky-luc-tai-viet-nam/)"
+  - text: "Lệ Thủy là một huyện thuộc tỉnh Quảng Bình.\n
+  Đây là nơi có nhiều địa điểm tham quan và trải nghiệm ấn tượng, khiến nơi đây rất đáng để ghé thăm.\n
+  Các địa điểm đáng quan tâm:\n
+  [Hang Chà Lòi](https://vietnamnet.vn/en/exploring-cha-loi-cave-675578.html)\n
+  [Hang Võ Nguyên Giáp](https://myquangbinh.vn/vi/hangdaituong)\n
+  [Thác Dương Cầm](https://vietnamtimes.org.vn/duong-cam-waterfall-a-wonderful-natural-scenery-of-vietnam-56643.html)\n
+  [Suối nước nóng Bang](https://www.vietnam.vn/en/suoi-nuoc-nong-co-do-soi-cao-ky-luc-tai-viet-nam/)"
     image: "https://cdn.tgdd.vn/Files/2023/07/18/1538771/du-lich-le-thuy-quang-binh-5-dia-diem-du-lich-hap-dan-nhat-202307182157490185.jpg"
 
   utter_goto_QuangNinh:
-  - text: "Quang Ninh is located in the southern part of Quang Binh Province.\n
-  It borders Le Thuy district to the south and Dong Hoi city to the north.\n
-  Places of Interest:\n
-  [Son Nu Cave](https://www.vietnam.vn/en/phat-hien-hang-son-nu-tuyet-dep-giua-rung-truong-son-o-quang-binh/)\n
-  [Than Dinh mountain](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/len-chua-non-nui-than-dinh-uong-nuoc-thanh.html)\n
-  [Dao Duy Tu Rampart](https://mia.vn/cam-nang-du-lich/luy-thay-quang-binh-di-tich-gan-lien-voi-vi-quan-su-dao-duy-tu-5765)"
+  - text: "Quảng Ninh là một huyện thuộc tỉnh Quảng Bình.\n
+  Phía nam huyện giáp huyện Lệ Thủy.\n
+  Các địa điểm đáng quan tâm:\n
+  [Hang Sơn Nữ](https://www.vietnam.vn/en/phat-hien-hang-son-nu-tuyet-dep-giua-rung-truong-son-o-quang-binh/)\n
+  [Núi Thần Đinh](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/len-chua-non-nui-than-dinh-uong-nuoc-thanh.html)\n
+  [Lũy Thầy](https://mia.vn/cam-nang-du-lich/luy-thay-quang-binh-di-tich-gan-lien-voi-vi-quan-su-dao-duy-tu-5765)"
     image: "https://cdn.tgdd.vn/Files/2023/07/18/1538771/du-lich-le-thuy-quang-binh-5-dia-diem-du-lich-hap-dan-nhat-202307182157490185.jpg"
 
   utter_goto_BoTrach:
-  - text: "Bo Trach is a rural district in Quang Binh Province.\n
-  Bo Trach borders the capital city of Dong Hoi to the south-east.\n
-  Places of Interest:\n
-  [Phong Nha - Ke Bang National Park](https://vietnamtravel.com/phong-nha-ke-bang-national-park/)\n
-  [Son Doong cave](https://sondoongcave.info/vi/)\n
-  [En cave](https://oxalisadventure.com/vi/cave/hang-en/)\n
-  [Thien Duong cave](https://vietnamdiscovery.com/quang-binh/attractions/paradise-cave/)\n
-  [Chay river – Dark cave](https://quangbinhgo.com/chay-river-dark-cave-great-destination-in-quang-binh/)\n
-  [Hang Va cave](https://vnexpress.net/ky-quan-trong-hang-va-o-quang-binh-4587117.html)\n 
-  [Da Nhay Beach](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/diem-tham-quan-du-lich-quang-binh/da-nhay.html)\n
-  [Mooc Spring](https://phongnhacave.org/nuoc-mooc-spring/)\n
-  [Ozo Park](https://phongnhacave.org/ozo-park-in-phong-nha-ke-bang/)\n"
+  - text: "Bố Trạch là một huyện thuộc tỉnh Quảng Bình.\n
+  Phía nam giáp thành phố Đồng Hới và huyện Quảng Ninh.\n
+  Các địa điểm đáng quan tâm:\n
+  [Vườn quốc gia Phong Nha – Kẻ Bàng](https://vietnamtravel.com/phong-nha-ke-bang-national-park/)\n
+  [Hang Sơn Đoòng](https://sondoongcave.info/vi/)\n
+  [Hang Én](https://oxalisadventure.com/vi/cave/hang-en/)\n
+  [Động Thiên Đường](https://vietnamdiscovery.com/quang-binh/attractions/paradise-cave/)\n
+  [Sông Chày – Hang Tối](https://quangbinhgo.com/chay-river-dark-cave-great-destination-in-quang-binh/)\n
+  [Hang Va](https://vnexpress.net/ky-quan-trong-hang-va-o-quang-binh-4587117.html)\n 
+  [Biển Đá Nhảy](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/diem-tham-quan-du-lich-quang-binh/da-nhay.html)\n
+  [Suối Moọc](https://phongnhacave.org/nuoc-mooc-spring/)\n
+  [Công viên Ozo](https://phongnhacave.org/ozo-park-in-phong-nha-ke-bang/)\n"
     image: "https://www.quangbinhtravel.vn/wp-content/uploads/2019/05/image-1.png"
 
   utter_goto_QuangTrach:
-  - text: "Quang Trach is a district located in the northern part of Quang Binh Province.\n
-  Places of Interest:\n
-  [Vung Chua - Yen Island](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/tim-hieu-vung-chua-dao-yen-noi-an-tang-dai-tuong-vo-nguyen-giap.html)\n
-  [Deo Ngang](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/diem-tham-quan-du-lich-quang-binh/deo-ngang-con-deo-rat-tho-va-lang-man-nhat-viet-nam.html)\n"
+  - text: "Quảng Trạch là một huyện thuộc tỉnh Quảng Bình.\n
+  Các địa điểm đáng quan tâm:\n
+  [Vũng Chùa - Đảo Yến](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/tim-hieu-vung-chua-dao-yen-noi-an-tang-dai-tuong-vo-nguyen-giap.html)\n
+  [Đèo Ngang](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/diem-tham-quan-du-lich-quang-binh/deo-ngang-con-deo-rat-tho-va-lang-man-nhat-viet-nam.html)\n"
     image: "https://baoquangbinh.vn/dataimages/201802/original/images620261_anh37.jpg"
 
   utter_goto_TuyenHoa:
-  - text: "Tuyen Hoa district is located in the northwest of Quang Binh Province.\n
-  This is the ancient homeland of the Vietnamese people.\n
-  Places of Interest:\n
-  [Hang Tien cave](https://thanhnien.vn/mot-ngay-xuyen-rung-kham-pha-hang-tien-1851444104.htm)\n
-  [Len Ha cave](https://mia.vn/cam-nang-du-lich/hang-len-ha-quang-binh-noi-ghi-dau-chien-cong-oanh-liet-6045)\n"
+  - text: "Tuyên Hóa là một huyện thuộc tỉnh Quảng Bình.\n
+  Đây là nơi sinh sống lâu đời của người Việt cổ xưa.\n
+  Các địa điểm đáng quan tâm:\n
+  [Hang Tiên](https://thanhnien.vn/mot-ngay-xuyen-rung-kham-pha-hang-tien-1851444104.htm)\n
+  [Hang Lèn Hà](https://mia.vn/cam-nang-du-lich/hang-len-ha-quang-binh-noi-ghi-dau-chien-cong-oanh-liet-6045)\n"
     image: "https://img.daibieunhandan.vn/Files/Images/2020/07/27/1651730929393.jpg"
 
   utter_goto_MinhHoa:
-  - text: "Minh Hoa is a mountainous border district located in the western part of Quang Binh province.\n
-  Places of Interest:\n
-  [Tu Lan Cave](https://vnexpress.net/ve-dep-ben-trong-cac-hang-dong-tu-lan-4429857.html)\n
-  [Ruc Mon cave](https://danviet.vn/kham-pha-hang-ruc-mon-bai-cuoi-ngoc-trong-hang-va-bi-an-ve-loai-ran-o-do-cao-400m-20230924152004794.htm)\n
-  [Mo Waterfal](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/thac-mo-minh-hoa-noi-tranh-nong-ly-tuong.html)\n
-  [Cha Lo Heaven Gate](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/di-tich-lich-su-cong-troi-cha-lo.html)"
+  - text: "Minh Hóa là một huyện miền núi biên giới nằm ở phía tây tỉnh Quảng Bình.\n
+  Các địa điểm đáng quan tâm:\n
+  [Hang Tú Làn](https://vnexpress.net/ve-dep-ben-trong-cac-hang-dong-tu-lan-4429857.html)\n
+  [Hang Rục Mòn](https://danviet.vn/kham-pha-hang-ruc-mon-bai-cuoi-ngoc-trong-hang-va-bi-an-ve-loai-ran-o-do-cao-400m-20230924152004794.htm)\n
+  [Làng Tân Hóa](https://thanhnien.vn/tan-hoa-ron-lu-quang-binh-co-gi-ma-thanh-lang-du-lich-tot-nhat-the-gioi-185231019184624329.htm)\n
+  [Thác Mơ](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/thac-mo-minh-hoa-noi-tranh-nong-ly-tuong.html)\n
+  [Cổng trời Cha Lo](https://phongnhaexplorer.com/thong-tin-du-lich-quang-binh/di-tich-lich-su-cong-troi-cha-lo.html)"
     image: "https://www.vietnambooking.com/wp-content/uploads/2017/10/du-lich-quang-binh-18-10-2017-hung-tung-3.jpg"
 
   utter_book_hotels:
-  - text: "In which city do you want to book hotels?"
+  - text: "Bạn muốn đặt khách sạn ở đâu?"
 
   utter_book_DongHoi:
   - text: "SunSpa, Hotel Resort\n
@@ -136,19 +137,19 @@ responses:
     image: "https://quangbinhbooking.com/wp-content/uploads/2022/03/2-7-870x555.jpg"
 
   utter_book_DongHoi_three:
-  - text: "Meliá Vinpearl Hotel Quang Binh\n
+  - text: "Meliá Vinpearl Hotel Quảng Bình\n
   🏨[Website](https://www.melia.com/vi/hotels/vietnam/quang-binh/melia-vinpearl-quang-binh)\t
   🗺️[Directions](https://www.google.com/maps/place/Meli%C3%A1+Vinpearl+Qu%E1%BA%A3ng+B%C3%ACnh/@17.4656176,106.6264752,15z/data=!4m2!3m1!1s0x0:0x5f846de9e96cac64?sa=X&ved=2ahUKEwibmZrT-qyCAxU6klYBHdjYEqMQ_BJ6BAhPEAA)"
     image: "https://datphongvinpearl.vn/wp-content/uploads/2020/12/dji-0258-hdr-1-0921152.jpg"
 
   utter_book_DongHoi_four:
-  - text: "Muong Thanh Luxury Nhat Le Hotel\n
+  - text: "Mường Thanh Luxury Nhật Lệ Hotel\n
   🏨[Website](https://booking.muongthanh.com/khach-san-muong-thanh-luxury-nhat-le)\t
   🗺️[Directions](https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+M%C6%B0%E1%BB%9Dng+Thanh+Luxury+Nh%E1%BA%ADt+L%E1%BB%87/@17.486803,106.626956,15z/data=!4m2!3m1!1s0x0:0xc9bd4f383fbe7fb2?sa=X&ved=2ahUKEwip3-iv_ayCAxVDzjQHHT9yCwwQ_BJ6BAhPEAA&hl=vi)"
     image: "https://booking.muongthanh.com/images/hotels/hotels/original/muong-thanh-quang-binh_1694067557.jpg"
 
   utter_book_DongHoi_five:
-  - text: "Vinh Hoang Hotel\n
+  - text: "Vĩnh Hoàng Hotel\n
   🏨[Website](https://www.vihotelquangbinh.com/)\t
   🗺️[Directions](https://www.google.com/maps/place/Kh%C3%A1ch+s%E1%BA%A1n+V%C4%A9nh+Ho%C3%A0ng+-+VIHOTEL/@17.4874359,106.6272589,15z/data=!4m2!3m1!1s0x0:0xf4b1055e6a77bdfd?sa=X&ved=2ahUKEwiLr6P5_ayCAxUvhlYBHepDCQQQ_BJ6BAhREAA&hl=vi)"
     image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/133347972.jpg?k=87b4d80ea74b04b95661beb6ca8117b188577f1601d511b9115d71213b63047b&o=&hp=1"
@@ -250,7 +251,7 @@ responses:
     image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/221309996.jpg?k=f02a0d2f0ec20ec1c943d8b9fc29c3d04ef4500ceaab089ef64f84bbe0c57440&o=&hp=1"
 
   utter_book_BoTrach_two:
-  - text: "Chay Lap Farmstay\n
+  - text: "Chày Lập Farmstay\n
   🏨[Website](https://chaylapfarmstay.com/vi/)\t
   🗺️[Directions](https://www.google.com/maps/place/Ch%C3%A0y+L%E1%BA%ADp+Farmstay/@17.6017277,106.2546176,15z/data=!4m2!3m1!1s0x0:0x33bdd8762560eb94?sa=X&ved=2ahUKEwiB0-msoa2CAxU8gFYBHbWVDR8Q_BJ6BAhJEAA)"
     image: "https://vcdn1-dulich.vnecdn.net/2021/04/22/CHAYLAP1-2752-1615888910-4211-1619077974.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=r5va82UJVD5dP5OBxyrytg"
@@ -364,35 +365,35 @@ responses:
     image: ""
 
   utter_book_tickets:
-  - text: "Book your tickets here:\n
+  - text: "Đặt vé ở đây:\n
   🚌[Bus](https://myquangbinh.vn/vi/detailutilities/?id=4304&child=4304)\n
-  🚆[Trains](https://dsvn.vn/#/)\n
-  ✈️[Flights](https://www.vietnamairlines.com/vn/vi/home)"
+  🚆[Tàu](https://dsvn.vn/#/)\n
+  ✈️[Máy bay](https://www.vietnamairlines.com/vn/vi/home)"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.pinimg.com/originals/65/04/c0/6504c099cfd144222603d7adfade62df.png"
   
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Nó có giúp gì cho bạn hay không?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Tuyệt, hãy tiếp tục!"
   
   utter_thanks:
-  - text: "I am glad to help you.\nHave a great day!"
+  - text: "Rất hân hạnh được giúp bạn.\n Chúc bạn có một ngày tốt lành!"
 
   utter_goodbye:
   - text: "Bye👋"
 
   utter_goodbye_two:
-  - text: "Before you leave,We would like to hear your thoughts 👉[Click Here!](https://forms.gle/rqxaE5CGcoZfw6PG9)"
+  - text: "Vui lòng phản hồi về chất lượng ở đây 👉[Click Here!](https://forms.gle/rqxaE5CGcoZfw6PG9)"
   
   utter_out_of_scope:
   - text: "Sorry, I can't handle that request.I can only assist you with travel and tourism."
   
   utter_iamabot:
-  - text: "I am QBST. Your virtual assistant for travel and tourism."
+  - text: "Tôi là QBST. Trợ lý ảo du lịch của bạn!"
 
 
        
