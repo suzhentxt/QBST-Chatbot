@@ -1,4 +1,4 @@
-version: "3.1"
+version: "3.0"
 
 intents:
   - greet
@@ -32,7 +32,7 @@ intents:
   
 responses:
   utter_greet:
-  - text: "Hello! I am QBST. Your travel assistant for QuangBinh!\n How can I help you today?"
+  - text: "Xin chào! Tôi là QBST. Trợ lý du lịch của bạn!\n Hôm nay tôi có thể giúp gì cho bạn?"
 
   utter_greet_two:
   - text: "🧳Plan my trip\n🏨Book hotels\n🎫Book tickets"
